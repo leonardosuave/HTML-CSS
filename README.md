@@ -3,4 +3,4 @@
 
 Estudos de programação web
 
-<a href="https://leonardosuave.github.io/html-css/exercicios/ex001/index.html"></a>
+<a href="https://leonardosuave.github.io/html-css/exercicios/ex001/index.html">Exercicio 01</a>
