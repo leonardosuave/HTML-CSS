@@ -1,0 +1,13 @@
+@charset "UTF-08";
+
+body {
+    margin: 0px;
+    margin: auto;
+}
+
+#container {    
+    width: 100vw;
+    height: 100vh;    
+    background: url('../imagens/espaco-full.jpg');
+    background-size: cover;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to top, #3B85DD, #7141B9, #AF3695, #D83071, #EB4F4E, #F76D2F, #FA8B2F, #FDCE6D);
+    background-attachment: fixed;
+    font: normal normal 16px arial,sans-serif; 
+       
+}
+
+main {
+    text-align: center;
+}
+
+div {
+    display: inline;   
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{            
+    color: white;
+    font: normal bold 30px arial,sans-serif;
+    text-align: center;
+    background-color: #D83071;
+}
+
+
