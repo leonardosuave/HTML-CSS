@@ -42,9 +42,10 @@ header a:hover, footer a:hover {
 }
 
 section {
-    line-height: 16px;
+    line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
 section.normal {
@@ -54,7 +55,13 @@ section.normal {
 
 section.imagem {
     background-color: rgb(65, 65, 65);
-    color: white;
+    color: white;    
+}
+
+section.imagem > p {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.121);
+    padding: 10px 30px;
 }
 
 footer {
