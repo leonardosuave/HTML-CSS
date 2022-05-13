@@ -27,6 +27,17 @@
             padding: 10px;
         }
 
+        col.cnome {
+            background-color: greenyellow;
+        }
+
+        col.cprofissão {
+            background-color: aqua;
+        }
+
+        col.csexo {
+            background-color: red;
+        }
         
     </style>
 </head>
@@ -34,6 +45,15 @@
     <h1>Exercícios de Tabela</h1>
 
     <table>
+        <colgroup> 
+            <!--A quantidade de <col> é em relação a quantidade de colunas da tabela, e funcionam na ordem... O nome da classe pode ser qualquer um, ajuda apenas na hora de editar a classe no CSS (style).-->
+
+            <!-- O uso de SPAN=2 indica que as configuração da classe vai ser para 2 colunas a partir da ordem de colocação. OBS -> Neste caso é necessario remover o <col class=cidade> que é referente a 3 coluna.... e desta forma o terceiro <col class=profissão> passa a ser referente a quarta coluna (Profissão)-->
+            <col class="cnome">
+            <col class="csexo" span="2"> 
+            <col class="cidade">
+            <col class="cprofissão">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
